@@ -10,13 +10,13 @@ This project processes ceramic artifacts from the NPM digital collection, extrac
 
 ```
 .
-│   build_dataset.py          # Dataset construction and sampling
-│   clusters.py               # UMAP clustering visualization
-│   download_picture.py       # Image downloading utility
-│   extract_features.py       # VAE feature extraction
-│   meanobject.py             # Mean object generation per class
-│   run.sh                    # Complete pipeline execution script
-│   visual_pca.py             # PCA-based visual grid generation
+├───build_dataset.py          # Dataset construction and sampling
+├───clusters.py               # UMAP clustering visualization
+├───download_picture.py       # Image downloading utility
+├───extract_features.py       # VAE feature extraction
+├───meanobject.py             # Mean object generation per class
+├───run.sh                    # Complete pipeline execution script
+├───visual_pca.py             # PCA-based visual grid generation
 │
 ├───analyze_data/             # Data analysis utilities on specific field
 │   ├───last_char.py          # Last character counting
