@@ -5,7 +5,7 @@ from collections import Counter
 # ===== 手動設定 =====
 input_file_path = "raw_data/ceramics.json"
 output_file_path = "raw_data/ngrams.txt"
-target_field = "desc"
+target_field = "name"
 # ===================
 
 def generate_ngrams_from_token(token, n):

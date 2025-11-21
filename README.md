@@ -19,7 +19,9 @@ This project processes ceramic artifacts from the NPM digital collection, extrac
 ├───visual_pca.py             # PCA-based visual grid generation
 │
 ├───analyze_data/             # Data analysis utilities on specific field
+│   ├───keyword_class.py      # Count keyword occurrences per class.
 │   ├───last_char.py          # Last character counting
+│   ├───meanobject_grid.py    # Generates image grid for mean objects and prints layout map.
 │   ├───ngrams.py             # N-gram analysis
 │   ├───suffix_ngrams.py      # N-gram analysis with specific suffix
 │   └───value_count.py        # Value frequency counting
