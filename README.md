@@ -179,15 +179,6 @@ python visual_pca.py --method shape
       └── {class_name}.png
 ```
 
-## Data Analysis Tools
-
-Located in `./analyze_data/`:
-
-- **`value_count.py`** - Counts unique values in specified fields
-- **`last_char.py`** - Analyzes distribution of last characters
-- **`ngrams.py`** - Performs n-gram analysis on text fields
-- **`suffix_ngrams.py`** - N-gram analysis for specific suffix patterns
-
 ## Technical Details
 
 ### Feature Extraction
@@ -218,3 +209,16 @@ Data source: National Palace Museum Open Data API
 ## License
 
 This project is for research and educational purposes. Please respect the National Palace Museum's data usage terms.
+
+## Demo
+![shape_umap_scatter](./images/shape_umap_scatter.png)
+> {"0": "壺","1": "尊","2": "托","3": "指","4": "插","5": "斗","6": "杯","7": "板","8": "洗","9": "爐","10": "片","11": "瓶","12": "盆","13": "盒","14": "盛","15": "盤","16": "碗","17": "碟","18": "筒","19": "管","20": "罐","21": "觚","22": "鈎","23": "鍾"}
+
+![shape_umap_centroids](images/shape_umap_centroids.png)
+> Class name and red line are added manually.
+
+![shape_mean_objects.png](images/shape_mean_objects.png)
+^ Mean Objects (Classification by shape)
+
+![壺.png](images/壺.png)
+^ PCA1 x PCA2 (for the shape of 壺)
